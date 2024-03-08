@@ -10,3 +10,4 @@ export function autobind(_, _2, descriptor) {
     };
     return adjDescriptor;
 }
+//# sourceMappingURL=autobind.js.map

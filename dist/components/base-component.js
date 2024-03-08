@@ -1,5 +1,5 @@
 // Componet Base Class
-export class Component {
+export default class Component {
     constructor(temlateId, HostElementId, insertAtStart, newElementId) {
         this.templateEl = document.getElementById(temlateId);
         this.hostEl = document.getElementById(HostElementId);
@@ -16,3 +16,4 @@ export class Component {
         this.hostEl.insertAdjacentElement(insertAtBeginning ? "afterbegin" : "beforeend", this.element);
     }
 }
+//# sourceMappingURL=base-component.js.map
