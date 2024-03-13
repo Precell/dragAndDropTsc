@@ -6,3 +6,4 @@ new ProjectList("active");
 new ProjectList("finished");
 
 
+console.log('hi');
